@@ -944,6 +944,7 @@ class MyClass {
         this.changeFloppyDisk = Module.cwrap('neil_change_floppy', null, ['string']);
         this.loadFloppyDisk = Module.cwrap('neil_load_floppy', null, ['string']);
         this.sendDosCommands = Module.cwrap('neil_send_dos_commands', null, ['string']);
+	    this.updateCPU('2000');
     }
 
     sanitizeName(name){
