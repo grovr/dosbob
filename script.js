@@ -55,7 +55,7 @@ class MyClass {
         this.baseHardDrive = new Uint8Array();
         this.compareCount = 0;
         this.doIntegrityCheck = false;
-        this.cpu = 'auto';
+        this.cpu = '2000';
         this.showLoadAndSavestate = false;
         this.loadSavestateAfterBoot = false;
         this.noCopyImport = false;
