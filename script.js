@@ -522,7 +522,7 @@ class MyClass {
 
             $('#githubDiv').show();
             this.loading = false;
-
+	    myApp.updateCPU('2000');
         }        
     }
 
